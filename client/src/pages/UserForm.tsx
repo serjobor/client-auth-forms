@@ -77,7 +77,7 @@ const UserForm: React.FC<UserFormProps> = ({ mode, initialValues, onClose, onSub
                 </div>
                 <div className={styles.formGroup}>
                   <label className={styles.label} htmlFor="fullName">Полное имя <span style={{color: 'red'}}>*</span></label>
-                  <Field className={styles.input} name="fullName" readOnly />
+                  <Field className={styles.input} name="fullName" />
                 </div>
                 {/* Email и пароль только для создания */}
                 {mode === 'create' && (
