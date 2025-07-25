@@ -1,0 +1,20 @@
+.sidebar {
+  width: 125px;
+  background: #f0f0f0;
+  padding: 24px;
+  padding-top: 61px;
+  min-height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.navButton {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navButton:last-child {
+  margin-bottom: 0;
+} 
