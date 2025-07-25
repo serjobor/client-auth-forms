@@ -1,20 +1,55 @@
 .sidebar {
-  width: 125px;
-  background: #f0f0f0;
-  padding: 24px;
-  padding-top: 61px;
+  width: 220px;
+  background: #e3f2fd;
+  padding: 32px 18px;
   min-height: 100vh;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #bbdefb;
+  box-shadow: 2px 0 8px rgba(25, 118, 210, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .navButton {
   width: 100%;
-  padding: 12px;
-  margin-bottom: 12px;
+  padding: 12px 0;
+  margin-bottom: 16px;
   font-size: 16px;
+  font-weight: 600;
+  color: #1976d2;
+  background: #fff;
+  border: 1.5px solid #1976d2;
+  border-radius: 6px;
   cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.navButton:hover {
+  background: #1976d2;
+  color: #fff;
+  border: 1.5px solid #1976d2;
 }
 
 .navButton:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    width: 100%;
+    min-height: unset;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 10px 2px;
+    border-right: none;
+    border-bottom: 1.5px solid #bbdefb;
+    box-shadow: none;
+    margin-bottom: 18px;
+  }
+  .navButton {
+    margin-bottom: 0;
+    margin-right: 8px;
+    width: auto;
+    min-width: 120px;
+  }
 } 
