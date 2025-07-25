@@ -90,6 +90,26 @@
     gap: 18px;
   }
   .main {
-    padding: 18px 4px;
+    padding: 10px 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .container {
+    padding: 8px 0 0 0;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 2px 0;
+  }
+  .table {
+    font-size: 13px;
+    min-width: 600px;
+  }
+  .header {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
   }
 } 
