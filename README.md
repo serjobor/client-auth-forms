@@ -4,7 +4,7 @@
 ## Установка
 - Скопируйте команду и вставьте в терминал
 ```
-git clone https://github.com/serjobor/fullstack-jwt-auth.git
+git clone https://github.com/serjobor/client-auth-forms.git
 ```
 - Перейдите в папку /client и выполните следующую команду
 ```
